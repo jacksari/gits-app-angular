@@ -16,4 +16,8 @@ export class SidebarComponent{
     return this.gifsService.getHistorial();
   }
 
+  clickTitle(item: string) {
+    this.gifsService.selectItem(item);
+  }
+
 }

@@ -2,8 +2,8 @@
   <h1 class="text-3xl text-white font-bold">Gifs App</h1>
   <hr class="my-4">
   <div class="mt-12">
-    <div *ngFor="let item of historial" class="bg-white rounded-md p-2 cursor-pointer mb-2">
-      <p class="text-lg">{{ item }}</p>
+    <div (click)="clickTitle(item)" *ngFor="let item of historial" class="bg-white rounded-md p-2 cursor-pointer mb-2">
+      <p class="text-lg">{{ item | titlecase }}</p>
     </div>
   </div>
 </div>
