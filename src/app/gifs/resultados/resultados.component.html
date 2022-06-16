@@ -1,5 +1,5 @@
 <div class="grid grid-cols-3 gap-4">
-  <div *ngFor="let item of resultados" class="shadow rounded">
+  <div *ngFor="let item of resultados" class="shadow rounded animate__animated animate__backInLeft">
     <img [src]="item.images.original.url" alt="" class="object-cover h-48 w-full">
     <p class="text-center my-2">{{ item.title }}</p>
   </div>
