@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './gifs-page.component.html',
   styleUrls: ['./gifs-page.component.scss']
 })
-export class GifsPageComponent implements OnInit {
+export class GifsPageComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
